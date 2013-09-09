@@ -3,6 +3,8 @@ proglangs
 
 Webapplikasjon for introdusering av programmeringsspråk
 
+Filene proglangs.html og proglangs_select.html har linker til hverandre
+
 Filoversikt:
 
 proglangs.html - HTML kode for side med oversikt over programmeringsspråk. <br> 
