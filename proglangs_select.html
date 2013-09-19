@@ -10,55 +10,40 @@
   Tiden jeg har brukt på oppgaven: 2 dager
 -->
 
+<!DOCTYPE html>
+
+
+
 <html>
 <head>
- <meta charset="utf-8">
+<meta charset="utf-8">
+<title>Programmeringsspråk</title>
+ <link rel="stylesheet" href="proglangs_select.css">
 
- 
-<script src="proglangs_select.js"></script>
- 
-<link rel="stylesheet" href="proglangs_select.css">
- 
 </head>
 <body>
+<ul class="meny">
+  <li><a href="proglangs_select.html">Hjem</a>
+  <li><a href="kronologisk.html">Kronologisk</a>
+  <li><a href="hierarkisk.html">Hierarkisk</a>
+  <li><a href="alfabetisk.html">Alfabetisk</a>
+</ul>
 
-<center><h1><u>Programmeringsspråk</u></h1></center>
-
-<center>
-<form>
-<select name="select-pl" id ="proglangs" onChange="printToOutputBox(this)">
-    <option>ActionScript</option>
-    <option>AppleScript</option>
-    <option>Asp</option>
-	<option>BASIC</option>
-	<option>C</option>
-	<option>C++</option>
-	<option>Clojure</option>
-	<option>COBOL</option>
-	<option>ColdFusion</option>
-	<option>Erlang</option>
-	<option>Fortran</option>
-	<option>Groovy</option>
-	<option>Haskell</option>
-	<option>Java</option>
-	<option>JavaScript</option>
-	<option>Lisp</option>
-	<option>Perl</option>
-	<option>PHP</option>
-	<option>Python</option>
-	<option>Ruby</option>
-	<option>Scala</option>
-	<option>Scheme</option>
-</select>
+<form id="søk">
+Søk i programmeringsspråk: <input type="text" name="søk">
 </form>
-</center>
 
-<br>
-<center>
-<span id="outputbox">Ingen programmeringsspråk valgt. Velg et programmeringsspråk!</span>
-</center>
 
-<center><p><a href="proglangs.html">Proglangs</a></p></center>
+<br><br><br>
+<h1>Oversiktsside for programmeringsspråk!</h1>
+
+
+<p>Velkommen til denne webapplikasjonen for introdusering av programmeringsspråk!</p>
+<br><br>
+
+<address>Laget 16.09.2013<br>
+  av Knut Enga.</address>
+
 
 </body>
 </html>
