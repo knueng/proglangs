@@ -17,29 +17,57 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Programmeringsspråk</title>
- <link rel="stylesheet" href="proglangs_select.css">
+<title>Programmeringsspråk</title>			
+ <link rel="stylesheet" href="test2.css">
 
 </head>
 <body>
+<script src="test2.js"></script>
 <ul class="meny">
-  <li><a href="proglangs_select.html">Hjem</a>
-  <li><a href="kronologisk.html">Kronologisk</a>
-  <li><a href="hierarkisk.html">Hierarkisk</a>
-  <li><a href="alfabetisk.html">Alfabetisk</a>
+  <li><a href="proglangs_select.html">Hjem</a>										<!--Sender brukeren tilbake til startsiden -->
+  <li><a onclick="myFunction()" href="test2.html">Kronologisk</a>		
+  <li><a onclick="myFunction()" href="test2.html">Hierarkisk</a>		<!--Starter myFunction når brukeren trykker på linken -->
+  <li><a onclick="myFunction()" href="test2.html">Alfabetisk</a>
 </ul>
 
-<form id="søk">
-Søk i programmeringsspråk: <input type="text" name="søk">
+
+<form>
+<select name="select-pl" id ="proglangs" onChange="printToOutputBox(this)">			<!-- Linker til outputbox -->
+    <option>ActionScript</option>
+    <option>AppleScript</option>
+    <option>Asp</option>
+	<option>BASIC</option>
+	<option>C</option>
+	<option>C++</option>
+	<option>Clojure</option>
+	<option>COBOL</option>												<!--Nedtrekksmeny med oversikt over språkene -->
+	<option>ColdFusion</option>
+	<option>Erlang</option>
+	<option>Fortran</option>
+	<option>Groovy</option>
+	<option>Haskell</option>
+	<option>Java</option>
+	<option>JavaScript</option>
+	<option>Lisp</option>
+	<option>Perl</option>
+	<option>PHP</option>
+	<option>Python</option>
+	<option>Ruby</option>
+	<option>Scala</option>
+	<option>Scheme</option>
+</select>
 </form>
-
-
+Søk i programmeringsspråk:
 <br><br><br>
 <h1>Oversiktsside for programmeringsspråk!</h1>
 
 
-<p>Velkommen til denne webapplikasjonen for introdusering av programmeringsspråk!</p>
+
+
+<span id="outputbox">Velkommen til denne webapplikasjonen for introdusering av programmeringsspråk!</span>  	<!-- Outputboxen som vil bli endret når brukeren velger språk -->
+
 <br><br>
+
 
 <address>Laget 16.09.2013<br>
   av Knut Enga.</address>
