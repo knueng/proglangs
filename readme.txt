@@ -1,9 +1,24 @@
-Modell:
-	Modell er i dette tilfellet teksten som står på siden, altså informasjonen om programmeringsspråk.
+0)
+	Fordelen med å bruket et JavaScript bibliotek istedenfor en rå JavaScript kode, er at det vil være kompitabelt med alle nettlesere.
+	Når nettlesere oppdaterer seg, vil jQuery også endre seg, som gjør at man slipper å kode manuelt til hver enkelt nettleser, samt 
+	oppdatere.
 
-Presentasjon:
-	Presentasjon er brukergrensesnittet. Det er en meny på venstre side, og tekst i midten.
+1)
+	Sterke sider til HTML/CSS: Tekstbehandling er lettere, da man lett kan endre på tekstens egenskaper og utseende, mens man med canvas vil endre hele teksten.
 
-Kontroller:
-	Kontroller er når brukeren trykker på linkene, vil det starte en JavaScript funksjon, som viser et varsel der det står at siden
-er under konstruksjon.
+
+	Sterke sider til Canvas: Canvas gir deg flere grafiske muligheter, og er mer tilgjengelig på ulike platformer.
+2)
+
+Canvas er bitmap. Hver pixel kan få sin unike farge.
+
+
+x)
+	Tid brukt: ca 3,5 time over tre dager.
+
+	Kilder:
+	- Forelesninger IS-104
+	- http://calebevans.me/projects/jcanvas/docs.php?p=text
+	- http://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
+	- http://calebevans.me/projects/jcanvas/index.php
+	- http://www.ibm.com/developerworks/web/library/wa-htmlmark/index.html
