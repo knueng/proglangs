@@ -1,0 +1,52 @@
+ body {
+   
+	padding-left: 14em;					/*Angir plasseringen til skriften i body*/
+	color: black;						/*Angir skriftfarge*/
+    background-color: #C4EDFF			/*Angir bakgrunnsfarge*/
+
+	}
+
+
+
+
+
+	ul.meny {
+    list-style-type: circle;			/*Lager sirkeler for hvert menyobjekt*/
+    padding: 0;							
+    margin: 0;								
+	position: absolute;
+    top: 6em;							/*Plasserer menyen helt til venstre */	
+    left: 1.5em;						
+    width: 9em }
+
+
+	ul.meny li {
+    background: #9EB5BF;
+    margin: 0.5em 0;					/*Angir bakgrunnsfarger til menyen */	
+    padding: 0.5em;
+    border-right: 2.5em solid silver
+}
+  
+  
+  
+  a:link {
+    color: blue }						/*Angir fargen til linker*/	
+  
+  a:visited {
+    color: purple }						/*Angir fargen til besøkte linker*/
+
+
+	 address {
+    margin-top: 1em;
+    padding-top: 1em;					/*Lager en prikkete linje over teksen i <adress>*/
+    border-top: thin dotted }
+
+
+
+
+  	#proglangs {
+	position: absolute;							/*Angir plasseringen til søkefeltet*/
+    top: 0.4em;
+    left: 31em;
+	}
+
