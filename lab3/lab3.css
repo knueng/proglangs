@@ -1,0 +1,24 @@
+
+/*Gjør teksten som blir skrevet ut i v1 blå*/
+#keypressed {
+color: blue;
+}
+
+/*Gir canvasen en ramme*/
+#my_canvas {
+
+border: solid 3px;
+}
+
+
+/*Gir farge til x koordinaten*/
+#x {
+color: blue;
+font-weight: bold;
+}
+
+/*Gir farge til y koordinaten*/
+#y {
+color: purple;
+font-weight: bold;
+}
