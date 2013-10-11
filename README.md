@@ -1,8 +1,7 @@
 proglangs
 =========
 
-Webapplikasjon for introdusering av programmeringsspråk
-
+Knut Enga
 
 
 Filoversikt:
