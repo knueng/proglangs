@@ -1,0 +1,36 @@
+Kontrollspørsmål
+
+0)
+	JavaScript er et programmeringsspråk som kan brukes til å implementere funksjoner i HTML. Man
+	kan også manipulere innhold på en side ved hjelp av JavaScript. Dette kan være å endre farge eller posisjon
+	på tekst, eller å gi brukeren tilbakemelding på hendelser.
+
+1)
+	Class og ID brukes begge til å gi kode et "navn," for å senere kunne gjøre endringer. ID er, i motsetning til
+	class unik, og vil da bare kunne bli brukt på ett element. Class derimot, kan ha flere ting i klassen sin, 
+	noe som gjør at man kan endre flere elementer.
+
+2)
+	Deloppgave 0 er en liste som er større og mer oversiktlig enn deloppgave 1. 0 har derimot ulike farger på 
+	hvert programmeringsspråk, som gjør det vanskelig å lese. Deloppgave 1 har en mer komprimert liste, som
+	kan gjøre det vanskelig å finne fram.
+		Designet til både deloppgave 0 og 1, er ikke optimalt for en oversiktlig liste. Listen inneholder forholdsvis
+	korte ord, og man kan derfor gjøre liste "bredere," ved å legge flere programmeringsspråk i bredden.
+
+3)
+	Wikipedia bruker <ul> og <il>, som HTML teknikk for å lage programmeringsspråkene i en liste. De har plassert
+	elementene i listen med trè i bredden, for å unngå en lengre side enn nødvendig. Wikipedia har også
+	alle programmeringsspråkene som hypertext, som gjør at man kommer til de respektive artiklene, ved å trykke 
+	på de. 
+		Alle språkene står i alfabetisk rekkefølge, der alle bokstaver har sin egen <ul>. Dette gjør det hele
+	mer oversiktlig.
+
+4)
+	Forskjellen på span og div er at span ofte blir brukt for mindre deler av html, mens div blir brukt til
+	større kode. Span kan bli brukt inne i for eksempel paragrafer. Div lager <br>.
+
+5)
+	Viss denne listen over programmeringsspråk hadde vært mye lenger, ville det blitt svært vanskelig å finne fram
+	til det ønskede språket. Alternative løsninger kunne da vært å posisjonert språkene i egne lister basert på
+	forbokstaven. Man kunne også implementert en søkefunksjon, der man kan velge ulike kriterier, for å finne lettere
+	fram.
