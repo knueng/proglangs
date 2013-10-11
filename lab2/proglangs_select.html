@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<!--
+  LAB1
+  Navn: Knut Enga
+  Jeg samarbeidet med: Ingen.
+  Referanser: 
+  -  http://www.htmldog.com/ (05.09-13)
+  - Forelesninger IS-104 (23/08, 30/08 og 06/09)
+  Tiden jeg har brukt på oppgaven: 2 dager
+-->
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Programmeringsspråk</title>			
+ <link rel="stylesheet" href="proglangs_select.css">
+
+</head>
+<body>
+<script src="proglangs_select.js"></script>
+<ul class="meny">
+  <li><a href="proglangs_select.html">Hjem</a>										<!--Sender brukeren tilbake til startsiden -->
+  <li><a onclick="myFunction()" href="proglangs_select.html">Kronologisk</a>		
+  <li><a onclick="myFunction()" href="proglangs_select.html">Hierarkisk</a>		<!--Starter myFunction når brukeren trykker på linken -->
+  <li><a onclick="myFunction()" href="proglangs_select.html">Alfabetisk</a>
+</ul>
+
+
+<form>
+<select name="select-pl" id ="proglangs" onChange="printToOutputBox(this)">			<!-- Linker til outputbox -->
+    <option>ActionScript</option>
+    <option>AppleScript</option>
+    <option>Asp</option>
+	<option>BASIC</option>
+	<option>C</option>
+	<option>C++</option>
+	<option>Clojure</option>
+	<option>COBOL</option>												<!--Nedtrekksmeny med oversikt over språkene -->
+	<option>ColdFusion</option>
+	<option>Erlang</option>
+	<option>Fortran</option>
+	<option>Groovy</option>
+	<option>Haskell</option>
+	<option>Java</option>
+	<option>JavaScript</option>
+	<option>Lisp</option>
+	<option>Perl</option>
+	<option>PHP</option>
+	<option>Python</option>
+	<option>Ruby</option>
+	<option>Scala</option>
+	<option>Scheme</option>
+</select>
+</form>
+Søk i programmeringsspråk:
+<br><br><br>
+<h1>Oversiktsside for programmeringsspråk!</h1>
+
+
+
+
+<span id="outputbox">Velkommen til denne webapplikasjonen for introdusering av programmeringsspråk!</span>  	<!-- Outputboxen som vil bli endret når brukeren velger språk -->
+
+<br><br>
+
+
+<address>Laget 16.09.2013<br>
+  av Knut Enga.</address>
+
+
+</body>
+</html>
