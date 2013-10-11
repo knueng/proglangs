@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif, arial, helvetica;
+	font-size: 18px;      					/* Angir font, skriftstørrelse, farge og bakgrunnsfarge */
+    color: black;
+	background-color: silver;
+}
+
+
+
+
+#actionscript {
+    color: red;
+}
+#applescript {												 
+    color: blue;
+}
+#asp {								/* Angir farge til hvert enkelt programmeringsspråk, gjennom id*/
+    color: #0A122A;
+}
+#basic {
+    color: #000000;
+}
+#c {
+    color: #DF7401;
+}
+#cpluss {
+    color:#F7FE2E;
+}
+#clojure {
+    color: #2EFE64;
+}
+#cobol {
+    color: #0000FF;
+}
+#coldfusion {
+    color: #0A122A;
+}
+#erlang {
+    color: #DF7401;
+}
+#fortran {
+    color: #F7FE2E;
+}
+#groovy {
+    color: #0A122A;
+}
+#haskell {
+    color: #F7FE2E;
+}
+#java {
+    color: #0A122A;
+}
+#javascript {
+    color: #FF00FF;
+}
+#lisp {
+    color: #F7FE2E;
+}
+#perl {
+    color: #0A122A;
+}
+#php {
+    color: #0A122A; 
+}
+#python {
+    color: red;
+}
+#ruby {
+    color: #F7FE2E;
+}
+#scala {
+    color: #FF00FF;
+}
+#scheme {
+    color: #FE642E;
+}
+
+
+
+#proglangs{            /* Midtstiller <ul> og <li> elementene gjennom id=proglangs */
+    width:10%;
+    margin:0 auto;
+}​
